@@ -4,4 +4,17 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "aiofiles>=25.1.0",
+    "autogen-agentchat===0.5.7",
+    "autogen-core>=0.5.7",
+    "autogen-ext>=0.5.7",
+    "fastapi>=0.129.0",
+    "jinja2>=3.1.6",
+    "openai>=2.21.0",
+    "pydantic>=2.12.5",
+    "python-dotenv>=1.2.1",
+    "tiktoken>=0.12.0",
+    "uvicorn>=0.40.0",
+    "websockets>=16.0",
+]
